@@ -1,2 +1,2 @@
-# Webov-str-nka
+# Webova-stranka
 Webová stránka o mně
