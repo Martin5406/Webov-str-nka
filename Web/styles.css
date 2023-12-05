@@ -1,0 +1,115 @@
+body, h1, h2, h3, p, ul, li, table{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 150%;
+    line-height: 1.6;
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    size: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%;
+}
+header{
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+    padding: 20px;
+    text-align: center; 
+}
+header h1{
+    margin-bottom: 20px;
+}
+.o-mně{
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ja{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.koníčky{
+    width: 45%;
+}
+.ikony{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+}
+.ikony a{
+    margin: 0 10px; 
+}
+.github{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.ikony img{
+    width: 45px; 
+    height: auto;
+}
+header img{
+    width: 250px;
+}
+section{
+    margin-bottom: 20px;
+}
+h2, h3{
+    color: #db3434;
+}
+h4{
+    margin-top: 15px; 
+    margin-bottom: 0; 
+}
+ul, ol{
+    margin-left: 20px;
+}
+.skate-video{
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.skateboarding{
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid black;
+    padding: 3px;
+}
+.fotbal-fotka{
+    margin-top: 35px;
+    width: 75%;
+    border-radius: 2%;
+}
+footer{
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    header img {
+        max-width: 70%;
+    }
+
+    .o-mně, .koníčky {
+        width: 100%;
+    }
+}
