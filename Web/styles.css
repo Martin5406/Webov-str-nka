@@ -10,6 +10,7 @@ body{
     max-width: 100%;
     overflow-x: hidden;
 }
+
 .container{
     size: 100%;
     margin: 0 auto;
@@ -21,21 +22,21 @@ header{
     color: #fff;
     padding: 20px;
     text-align: center; 
+    width: auto;
 }
-header h1{
+h1{
     margin-bottom: 20px;
 }
 .o-mně{
     margin: 0 auto;
-    max-width: 50%;
     height: auto;
-    border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .ja{
     display: block;
     margin: 0 auto;
+    width: 25%;
     max-width: 50%;
     height: auto;
     border-radius: 50%;
@@ -105,11 +106,27 @@ footer{
     width: 100%;
 }
 @media (max-width: 768px) {
-    header img {
-        max-width: 70%;
+    header{
+        width: auto;
+    }
+    footer{
+        width: auto;
+        padding: 20px;
     }
 
-    .o-mně, .koníčky {
-        width: 100%;
+    .Kinematografie li{
+        white-space: nowrap;
+    }
+    .fotbal-fotka{
+        width: 250px;
+    }
+}
+@media (max-width: 2560px) {
+    header{
+        width: auto;
+    }
+    footer{
+        width: auto;
+        padding: 20px;
     }
 }
